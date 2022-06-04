@@ -1,0 +1,173 @@
+@media all and (min-width: 992px) {
+    .header-section .header-menu ul li a {
+        font-size: 16px;        
+      }
+}
+@media all and (max-width: 992px){
+   .header-section .header-menu ul li a {
+    font-size: 15px;
+    margin-left: 0;
+    }
+    .header-section .header-menu ul li {
+    padding: 8px 9px;
+    }
+
+    .banner .banner-left {
+        padding-top: 56px;
+    }
+    .card {
+        margin-top: 77px;
+    } 
+}
+@media all and (min-width: 769px) {
+    .header-bar,.header-checkbox{
+        display: none;
+    }
+}
+@media all and (max-width: 768px) {
+    .header-bar{
+        position: relative;
+    }
+    .header-checkbox {
+        position: absolute;
+        top: 9px;
+        right: 33px;
+        height: 35px;
+        width: 35px;
+        z-index: 1;
+        opacity: 0;
+    } 
+    .header-section .header-menu ul{
+        display: none;
+    }
+    input.header-checkbox:checked ~ ul{
+        display: block;
+        text-align: right;
+        margin-top: 46px;
+    }
+    .header-section .header-menu ul li {
+        padding: 0px 9px;
+        display: block;
+        }
+    .header-section .header-menu ul li ul {
+        left: 242px;        
+        margin-top: -100px;
+        background: #dddddd4d;
+        }       
+    .header-bar {
+        position: absolute;
+        top: 5px;
+        right: 38px;
+        font-size: 31px;
+        z-index: -1;
+        display: inline-block;
+    } 
+    .banner .banner-left {
+        padding: 59px 0;
+    }  
+    .banner .banner-left h1 {
+        margin: 0;
+        padding: 0 !important;
+    }
+    .banner .banner-left button {
+        margin-top: 0 !important;
+        padding: 5px 10px;
+    }
+    .another-banner-section article{
+        text-align: center;
+    }
+    .another-banner-section article h1{
+        padding: 0 !important;
+    }
+    .another-banner-section article p{
+        margin: 0 !important;
+    }
+    .testimoal .card-body{
+        padding-top: 0 !important;
+    }
+    .another-banner-section article button{
+        margin: 0 !;
+        padding: 5px 10px;
+    }   
+    .counter-header form h4{
+        margin-bottom: 20px;
+    }
+    .pricing-header p{
+        padding-bottom: 0 !important;
+    }
+    .contact-section{
+        margin-bottom: 0 !important;
+    }
+    .contact-header{
+        margin-bottom: 0 !important;
+    }
+    .contact-section form{
+        padding: 20px 40px !important;
+    }    
+}
+@media all and (max-width: 576px){
+    .banner .banner-left {
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .another-banner-section{
+        text-align: center;
+    }
+    .another-banner-section h4 {
+        margin: 0;
+    }
+    .another-banner-section h1 {
+        margin: 0;
+    }
+    .another-banner-section p {
+    padding: 0;
+    }
+    .counter-2{
+        margin-top: 20px !important;
+    }
+    .testimoal .card-title{
+        margin-bottom: 0 !important;
+    }
+    .testimoal .card-title h3 {
+        font-size: 30px;
+        color: red;
+        font-weight: bold;
+    }
+    .testimoal .card-title h5{
+        font-size: 20px ;
+    }
+    .testimoal .card-body{
+        padding-top: 0 !important;
+    }
+    .contact-section{
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .contact-section .contact-header h1{
+        margin-bottom: 0 !important;
+    }
+    .contact-section form{
+        padding: 20px 40px !important;
+    }
+    .contact-section form h4 {
+        margin-bottom: 20px;
+    }
+    .othr-form  {
+        margin-top: 15px;
+    }
+    .contact-section form .button {
+        width: 142px !important;
+        padding: 4px 0;
+        background: chocolate;
+        border: 4px double gold;
+        color: blue;
+        box-sizing: border-box;
+    }
+    .contact-section .contact-right{
+        padding: 0px 1px !important;
+        margin: 23px 0 !important;
+    }
+    footer p{
+        color: tomato;
+    }
+}

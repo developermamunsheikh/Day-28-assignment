@@ -1,0 +1,151 @@
+
+/* Header-section */
+
+/* style.css | http://192.168.0.105:5500/style.css */
+
+.header-section .header-logo img {
+    max-width: 100%;
+  }
+  
+  .header-section .header-logo {
+    width: 87px;
+    padding: 10px 5px;
+  }
+  
+  .header-section .header-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    line-height: 44px;
+    margin-bottom: 0;
+  }
+  
+  .header-section .header-menu ul li {
+    display: inline-block;
+    padding: 8px 18px;
+    position: relative;
+  }
+
+  .header-section .header-menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    margin-left: -4px;
+    
+  }
+  /* Drop Down Menu */
+  .header-section .header-menu ul li:hover ul{
+      opacity: 1;
+      visibility: visible;
+      transform: scaleY(1);
+  }
+  .header-section .header-menu ul li ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	background: #ddd;
+	top: 100%;
+	padding: 0;
+	width: 200px;
+    text-align: center;
+    left: -57px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    transform: scaleY(0);
+}
+
+  .header-section .header-menu ul li ul li{
+      display: block;
+      padding: 0;
+  }
+
+  .header-section .header-menu ul li ul li a{
+    display: block;
+  }
+  
+/* Header-section End */
+
+
+body,p,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.banner{
+    background-color: rgba(175, 169, 202, 0.1);
+}
+.banner .banner-left{
+    padding-top: 130px;
+}
+
+
+/* Pricining section */
+.pricing-table{
+    background-color: #F6F6FE;
+}
+.pricing-top h1 {
+	background: #b2b2fd13;
+	height: 70px;
+	width: 70px;
+	margin: 0 auto;
+	
+	border-radius: 50%;
+
+	line-height: 65px;
+}
+.pricing-top h3{
+    font-weight: 500;
+    margin-top: 10px;
+}
+.pricing-top:hover{
+    box-shadow: rgba(104, 48, 215, 0.1) 0px 5px 15px !important;
+    transition: .3s;
+}
+.pricing-top button{
+    transition: .4s;
+}
+
+.pricing-top:hover button{
+    background-color: silver !important;
+}
+
+/* Testimonia
+ */
+
+
+ .card {
+     position: relative;
+ }
+ .card .card-img figure img {
+	position: absolute;
+	top: -36px;
+	left: 10px;
+	width: 100px;
+	height: 100px;
+}
+.card button{
+    width: 100px;
+    box-shadow: rgba(191, 167, 238, 0.6) 0px 5px 15px !important;
+   margin: auto;
+   font-weight: bold;
+   transition: .5s;
+   border: transparent;
+   border-radius: 7px !important;
+}
+.card button:hover{
+    background-color: blue;
+    color: white !important;
+    border: none;
+}
+
+/* Contact-section */
+form{
+    padding: 80px 0px !important;
+}
+.contact-section{
+    background-color: #F4F5FD;
+}
